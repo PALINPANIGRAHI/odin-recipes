@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 0;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 40%;
+}
+
+.hero-image {
+    background: gray;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+}
+
+/* Info Section */
+.info {
+    padding: 50px 0;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    font-style: italic;
+}
+
+blockquote {
+    font-size: 1.5em;
+}
+
+/* Call to Action */
+.cta {
+    padding: 50px 0;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.cta-box button {
+    background-color: white;
+    color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}

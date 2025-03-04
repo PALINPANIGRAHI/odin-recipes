@@ -1,0 +1,9 @@
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+h1{
+    display: flex;
+    color: orange;
+    justify-content: center;
+}
